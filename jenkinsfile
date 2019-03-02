@@ -1,0 +1,14 @@
+pipelin	{	
+	agent any	
+		Stages	{
+			stage('Coding')
+				Steps {
+				echo 'Hi, This is Qadeer Code'
+					}
+			}
+			Stage('Testing')
+				steps{
+					input('Are you Chittu?')
+				}
+}
+}
